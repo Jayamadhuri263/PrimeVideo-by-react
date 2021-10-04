@@ -1,0 +1,35 @@
+import styled from 'styled-components'
+
+export const Container = styled.div`
+  border-radius: 8px;
+  height: 200px;
+  width: 240px;
+  margin-bottom: 20px;
+`
+export const Thumbnail = styled.img`
+  border-radius: 8px;
+  height: 200px;
+  width: 280px;
+  cursor: pointer;
+`
+export const ModalContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+`
+export const CloseButton = styled.button`
+  align-self: flex-end;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  border: none;
+  margin-top: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+  outline: none;
+`
+export const PlayerContainer = styled.div`
+  margin: 12px 50px 50px 50px;
+`
